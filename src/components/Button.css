@@ -1,0 +1,15 @@
+.btn{
+    background-color: var(--black-color);
+    width: 150px;
+    height: 40px;
+    color: var(--primary-color);
+    border-radius: 10px;
+    position: relative;
+    right: 15px;
+    top: 15px;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+

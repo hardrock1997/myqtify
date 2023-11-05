@@ -1,0 +1,7 @@
+.nav {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100vw;
+}
