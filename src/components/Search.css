@@ -1,16 +1,18 @@
 .input {
-    width: 630px;
-    height: 40px;
+    width: 678px;
+    height: 48px;
     padding: 10px;
     border-radius: 8px;
     margin: 15px;
+    position: relative;
+    left: 35px;
 }
 .search_button{
     position: relative;
-    right: 80px;
-    height: 40px;
+    right: 48px;
+    height: 48px;
     background-color:var(--white-color);
-    width: 50px;
+    width: 55px;
     border-radius: 0px 8px 8px 0px;
     cursor: pointer;
     margin: 15px;
