@@ -1,0 +1,17 @@
+.hero {
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.hero_logo {
+    margin-right: 15vw;
+
+}
+.hero_text {
+    margin-left: 15vw;
+    margin-top: 20vh;
+    text-align: center;
+   
+}
