@@ -2,16 +2,15 @@
     color: var(--white-color);
     display: flex;
     justify-content: space-around;
-    
-
 }
 .hero_logo {
-    margin-right: 15vw;
+    margin-right: 25vw;
+    margin-top: 2vh;
+    height: 30vh;
 
 }
 .hero_text {
-    margin-left: 15vw;
-    margin-top: 20vh;
+    margin-left: 25vw;
+    margin-top: 15vh;
     text-align: center;
-   
 }
