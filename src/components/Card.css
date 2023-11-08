@@ -1,0 +1,25 @@
+.card_container {
+    height: 25vh;
+    background-color: var(--white-color);
+    width: 10vw;
+    border-radius: 14px;
+    margin-left: 20px;
+}
+
+.followers {
+   color: var(--white-color);
+   background-color: var(--black-color);
+   width: 120px;
+   margin-left: 5px;
+   border-radius: 10px;
+   padding: 5px;
+}
+.cardImage {
+    border-radius: 0;
+    width: inherit;
+}
+.title {
+    color: var(--white-color);
+    margin-left: 25px;
+    margin-top: 0;
+}

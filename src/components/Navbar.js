@@ -3,7 +3,7 @@ import Logo from './Logo'
 import Button from '../components/Button'
 import Search from './Search'
 import Hero from './Hero'
-
+import Card from './Card'
 export default function Navbar() {
  return (
 <>
@@ -15,6 +15,9 @@ export default function Navbar() {
     <main>
         <section>
             <Hero heroText='100 Thousand Songs,ad-free Over thousands podcast episodes'/>
+        </section>
+        <section>
+            <Card numberOfFollowers='100M Follows' title='New Bollywood'/>
         </section>
     </main>
 </>
