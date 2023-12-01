@@ -1,6 +1,6 @@
 import '../components/Card.css'
-import cardImage from '../assets/cardImage.png'
-export default function Card({numberOfFollowers,title}) {
+// import cardImage from '../assets/cardImage.png'
+export default function Card({numberOfFollowers,title,cardImage}) {
     return (
     <>
         <div className='card_container'>

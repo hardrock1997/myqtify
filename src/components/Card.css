@@ -1,5 +1,5 @@
 .card_container {
-    height: 25vh;
+    height: 23vh;
     background-color: var(--white-color);
     width: 10vw;
     border-radius: 14px;
@@ -21,5 +21,6 @@
 .title {
     color: var(--white-color);
     margin-left: 25px;
-    margin-top: 0;
+    position: relative;
+    bottom: 5px;
 }

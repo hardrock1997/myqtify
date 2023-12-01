@@ -1,0 +1,20 @@
+
+.albumtype {
+    color: var( --white-color);
+}
+
+.btntext {
+    color: var( --primary-color);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.cards_container {
+    display: flex;
+    flex-wrap:wrap
+}
