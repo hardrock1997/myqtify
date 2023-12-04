@@ -1,15 +1,16 @@
 .btn{
     background-color: var(--black-color);
     width: 170px;
-    height: 40px;
+    height: 47px;
     color: var(--primary-color);
     border-radius: 12px;
     position: relative;
     right: 15px;
-    top: 18px;
+    top: 13px;
     font-size: medium;
     font-weight: 600;
     cursor: pointer;
+    border: 1px solid var(--primary-color);
 }
 
 

@@ -1,16 +1,21 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import GridOfCards from './components/GridOfCards';
-
-import './App.css';
+import Navbar from './components/NavBar/Navbar';
+import Hero from '../src/components/Hero/Hero';
+import styles from './App.module.css';
+import Section from './components/Section/Section';
+import useGetAlbumsData from '../src/hooks/useGetAlbumsData';
+import {TOPALBUMS_URL} from '../src/utils/constants'
 
 function App() {
+
+  const [topAlbums] = useGetAlbumsData(TOPALBUMS_URL);
+
   return (
     <div>
       <Navbar/>
       <Hero heroText='100 Thousand Songs,ad-free Over thousands podcast episodes'/>
-      <GridOfCards/>
-      {/* <Card numberOfFollowers='100M Follows' title='New Bollywood'/> */}
+      <div className={styles.sectionWrapper}>
+      <Section title="Top Albums" data={topAlbums} type="album"/>
+      </div>
     </div>
   );
 }

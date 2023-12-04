@@ -1,21 +1,23 @@
 .input {
-    width: 678px;
+    width: 568px;
     height: 48px;
     padding: 10px;
     border-radius: 8px;
     margin: 15px;
     position: relative;
     left: 35px;
+    border: 1px solid black;
+    outline: none;
 }
 .search_button{
     position: relative;
-    right: 48px;
     height: 48px;
     background-color:var(--white-color);
-    width: 55px;
+    width: 66px;
     border-radius: 0px 8px 8px 0px;
     cursor: pointer;
     margin: 15px;
+    border: 1px solid black;
 }
 .input_container {
     display: flex;

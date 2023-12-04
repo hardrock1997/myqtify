@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.toggleText {
+    cursor: pointer;
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+.wrapper {
+    display: flex;
+    column-gap: 95px;
+    flex-wrap: wrap;
+}
+.cards_container {
+    margin-top: 18px;
+    margin-left: 50px;
+}
+.albumText {
+    margin-left: 10px;
+}
