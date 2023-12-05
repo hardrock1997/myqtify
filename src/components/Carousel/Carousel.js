@@ -16,7 +16,7 @@ function Controls({data,component}) {
 }
 
 function Carousel({data,component}) {
-    console.log(data)
+   
     return (
 
     <div className={styles.wrapper}>
