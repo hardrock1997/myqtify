@@ -9,11 +9,10 @@ import { ALLSONGS_URL } from '../src/utils/constants';
 import useGetAllSongs from './hooks/useGetAllSongs';
 
 function App() {
-console.log("app rendering")
+
   const [topAlbums] = useGetAlbumsData(TOPALBUMS_URL);
   const [newAlbums] = useGetAlbumsData(NEWALBUMS_URL);
   const [songs] = useGetAllSongs(ALLSONGS_URL);
-  console.log(songs)
 
   return (
     <div>

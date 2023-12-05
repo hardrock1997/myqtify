@@ -3,7 +3,7 @@ import Tooltip from '@mui/material/Tooltip';
 import Chip from '@mui/material/Chip';
 
 export default function Card({data,type}) {
-   
+
 const getCard = (type) => {
     switch(type) {
         case "album": {
@@ -13,7 +13,7 @@ const getCard = (type) => {
             <Tooltip title={`${songs.length} songs`} placement='top' arrow>
               <div className={styles.wrapper}>
                 <div className={styles.card}>
-                  <img src={image} alt="album" />
+                  <img src={image} alt="album" loading='lazy'/>
                 <div className={styles.banner}>
                     <Chip
                       label={`${follows} Follows`}
@@ -31,10 +31,11 @@ const getCard = (type) => {
     }
     case "song" :{
       const {image,likes,title}=data;
+
     return   (
         <div className={styles.wrapper}>
         <div className={styles.card}>
-          <img src={image} alt="album" />
+          <img src={image} alt="album" loading='lazy'/>
         <div className={styles.banner}>
             <Chip
               label={`${likes} Likes`}

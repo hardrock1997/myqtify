@@ -7,7 +7,7 @@ import 'swiper/css';
 import CarouselLeftNavigation from './CarouselLeftNavigation/CarouselLeftNavigation'
 import CarouselRigthNavigation from './CarouselRightNavigation/CarouselRightNavigation';
 
-function Controls({data,component}) {
+function Controls({data}) {
     const swiper = useSwiper()
 
     useEffect(()=>{

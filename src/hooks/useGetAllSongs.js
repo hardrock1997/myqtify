@@ -9,7 +9,6 @@ function useGetAllSongs(url) {
             try{
                 const data=await axios.get(url);
                 const songs =  data.data;
-                console.log(songs);
                 setSongs(songs)
             }
             catch(error) {
