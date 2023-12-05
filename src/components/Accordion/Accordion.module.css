@@ -1,0 +1,28 @@
+.wrapper {
+    margin-left: 205px;
+    margin-right: 205px;
+    position: relative;
+    bottom: 40px;
+   
+    .accordionSummaryWrapper {
+        background-color: var(--black-color);
+        border: 1px solid var(--white-color);
+        color: var(--white-color);
+        border-radius: 10px;
+        padding: 5px;
+        
+    }
+}
+
+.icon {
+    color: var(--primary-color);
+}
+.text {
+    text-align: center;
+    color: var(--white-color);
+    position: relative;
+    bottom: 45px;
+}
+.accordionText {
+    padding-left: 15px;
+}

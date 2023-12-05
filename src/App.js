@@ -7,6 +7,7 @@ import {TOPALBUMS_URL} from '../src/utils/constants';
 import { NEWALBUMS_URL } from '../src/utils/constants';
 import { ALLSONGS_URL } from '../src/utils/constants';
 import useGetAllSongs from './hooks/useGetAllSongs';
+import  BasicAccordion  from '../src/components/Accordion/Accordion';
 
 function App() {
 
@@ -19,13 +20,12 @@ function App() {
       <Navbar/>
       <Hero heroText='100 Thousand Songs,ad-free Over thousands podcast episodes'/>
       <div className={styles.sectionWrapper}>
-      
-        
         <Section title="Top Albums" data={topAlbums} type="album"/>
         <Section title="New Albums" data={newAlbums} type="album"/>
        {songs.length>0 ?  <Section title="Songs" data={songs} type="song"/> : null}
-        
-      
+      </div>
+      <div>
+       <BasicAccordion text="FAQ"/>
       </div>
     </div>
   );
